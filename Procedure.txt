@@ -1,0 +1,31 @@
+Mercedes-Benz-Greener-Manufacturing
+
+We are required to reduce the time that cars spend on the test bench. We will work with a dataset representing different permutations of features in a Mercedes-Benz car to predict the time it takes to pass testing. Optimal algorithms will contribute to faster testing, resulting in lower carbon dioxide emissions without reducing Daimler’s standards.
+
+Step1: Import the required libraries
+
+Step2: Read the data from train.csv
+
+Step3: Collect the Y values into an array
+
+Step4: Checking distribution of labels
+
+Step5: Understand the data types we have
+
+Step6: Count the data in each of the columns
+
+Step7: Read the test.csv data
+
+Step8: Check for null and unique values for test and train sets
+
+Step9: If for any column(s), the variance is equal to zero,then you need to remove those variable(s)
+
+Step10: Apply label encoder
+
+Step11: Make sure the data is now changed into numericals
+
+Step12: Perform dimensionality reduction
+
+Step13: Training using xgboost
+
+Step14: Predict your test_df values using xgboost
